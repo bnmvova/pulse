@@ -104,5 +104,22 @@
                 width: auto;
             }
         }
+
+        .title {
+            &_left {
+                text-align: center;
+                font-size: 30px;
+            }
+        }
+        .consultation {
+            &__descr {
+                text-align: center;
+            }
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 36px;
+            width: 280px;
+        }
     }
 }
